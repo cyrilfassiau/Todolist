@@ -50,7 +50,27 @@ input:focus {
     margin: auto;
 }
 
+.list {
+    display: flex;
+    width: 100%;
+}
+
+ul{
+    width: 100%;
+}
+
 li {
     font-size: 30px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
 }
+
+.counter{
+    text-align: center;
+}
+
+
 
